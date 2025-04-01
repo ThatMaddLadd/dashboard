@@ -8,7 +8,6 @@ import Index from './views/Index.svelte'
 import LoginCallback from './views/LoginCallback.svelte'
 import Login from './views/Login.svelte'
 import Logout from './views/Logout.svelte'
-import Whitelabel from './views/Whitelabel.svelte'
 import Settings from './views/Settings.svelte'
 import Error from './views/Error.svelte'
 import Error404 from './views/Error404.svelte'
@@ -48,7 +47,6 @@ export const routes = [
     {name: '/login', component: Login},
     {name: '/logout', component: Logout},
     {name: '/error', component: Error, layout: ErrorLayout},
-    {name: '/whitelabel', component: Whitelabel, layout: IndexLayout},
     {
         name: 'legal',
         nestedRoutes: [
